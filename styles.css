@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: arial;
+    border: border-box;
+    
+}
+.navbar{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+h1{
+    margin: 20px;
+}
+.name{
+
+display:flex;
+justify-content: space-between;
+width: 100%;
+align-items:center;
+background-color: #222f3d;
+color:white;
+}
+
+.name ul li{
+    display: inline-block;
+    list-style: none;
+   margin: 20px;
+}
+.name ul li a {
+    text-decoration: none;
+    color: white;
+}
+.name ul li a:hover{
+    color:orange;
+}
+.hero-sec{
+  width:100%;
+  height: 600px;
+  border:1px solid white;
+}
+
+.format{
+ margin-left: 150px;
+margin-top: 200px;
+}
+span{
+    font-family:cursive;
+    color: rgb(0, 38, 255);
+}
+.btn{
+    background-color : black;
+    color:white;
+  border-radius:5px;
+  font-weight: bold;
+  padding: 0.5%;
+}
+.image{
+ 
+    height:300px;
+    width:300px;
+    border-radius:150px;
+    border:2px solid black;
+    background-image: url("project-image.jpeg");
+    background-size: cover; 
+    position: absolute;
+     left:65%;
+     bottom:20%;
+
+}
+.image:hover{
+    transform: translateY(-15px);
+}
+
+.html {
+    height: 80px;
+    width:80px;
+    border-radius:35px;
+    background-image: url("html-image.png");
+    background-size: cover;
+    margin-left:25%;
+}
+.html:hover{
+    transform: translateY(-15px);
+}
+.css {
+   
+    height: 80px;
+    width:80px;
+    border-radius:35px;
+    background-image: url("css-image.avif");
+    background-size: cover;
+    margin-left:25%;
+   position: absolute;
+   left:10%;
+   top:110.5%;
+   
+}
+.css:hover{
+    transform: translateY(-15px);
+}
+.JavaScript {
+ 
+    height: 80px;
+    width:80px;
+    border-radius:35px;
+    background-image: url("js-image.png");
+    background-size: cover;
+    margin-left:25%;
+   position: absolute;
+   left:21%;
+   top:110.5%;
+   
+}
+.JavaScript:hover{
+    transform: translateY(-15px);
+}
+.Cpp {
+   
+    height: 80px;
+    width:80px;
+    border-radius:35px;
+    background-image: url("c++-image.png");
+    background-size: cover;
+    margin-left:25%;
+   position: absolute;
+   left:33%;
+   top:110.5%;
+   
+}
+.Cpp:hover{
+    transform: translateY(-15px);
+}
+.SQL {
+
+    height: 80px;
+    width:80px;
+    border-radius:35px;
+    background-image: url("sql-mage.png");
+    background-size: cover;
+    margin-left:25%;
+   position: absolute;
+   left:45%;
+   top:110.5%;
+   
+}
+.SQL:hover{
+    transform: translateY(-15px);
+}
+.project-sec{
+  height:400px;
+
+}
+.projectOne{
+    height: 202px;
+    width:483px;
+    border:2px solid black;
+    margin-left: 20%;
+    margin-top:4%;
+   background-image: url("amazon-image.png");
+    background-size: cover;
+
+
+}
+.projectOne:hover{
+    transform: translateY(-15px);
+}
+.projectTwo{
+    height: 30%;
+    width: 30%;
+    border:2px solid black;
+    position:absolute;
+     right:10%;
+     top:152%;
+     background-image: url("portfolio-image.png");
+     background-size:cover;
+     
+}
+.projectTwo:hover{
+    transform: translateY(-15px);
+}
+.proj-nameOne{
+    margin-top:50%;
+    margin-left: 30%;
+
+}
+.proj-nameTwo{
+    margin-top:52%;
+    margin-left: 37%;
+}
+.contact{
+    height:300px;
+
+}
+.contact p{
+
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.social-icons{
+    margin-top:20px;
+   
+}
+.social-icons a{
+    text-decoration: none;
+    font-size:30px;
+    margin-left:80px;
+    display:inline-block;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
